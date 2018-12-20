@@ -10,7 +10,7 @@ Mandatory Update
 
 ION Core v3.1.0 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will have a grace period of one week to update their clients before enforcement of this update is enabled. 
 
-The new Spork Key implementation is scheduled for Thursday, GMT: Monday, 31. December 2018 00:00:01. 
+The new Spork Key implementation is scheduled for Thursday, GMT: Monday, 31. December 2018 00:00:01.  
 The old Spork key will be rejected Wednesday, GMT: Sunday, 6. January 2019 00:00:01. Users must upgrade prior to this time.
 
 Users updating from a previous version after Sunday, 6. January 2019 00:00:01 will require a full resync of their local blockchain from either the P2P network or by way of bootstrap.
@@ -73,7 +73,9 @@ xION Updates
 
 ### xION Staking
 
-xION Staking is here! xION staking will be activated on the morning of the Sunday, 6. January 2019 00:00:01. With the release of xION staking, there are effectively 2 versions of xION, xION minted on the 3.0.6 ION wallet or lower, and xION minted on ION 3.1.x wallet version or higher. New features in this release will require the use of xION v2, xION minted on this wallet release 3.1.x or later. If you currently hold xION v1 and wish to take advantage of xION staking and deterministic xION, you will need to redeem the xION v1 to yourself and remint xION v2.
+xION Staking is here! xION staking will be activated on the morning of the Sunday, 6. January 2019 00:00:01.  
+With the release of xION staking, there are effectively 2 versions of xION, xION minted on the 3.0.6 ION wallet or lower, and xION minted on ION 3.1.x wallet version or higher.  
+New features in this release will require the use of xION v2, xION minted on this wallet release 3.1.x or later. If you currently hold xION v1 and wish to take advantage of xION staking and deterministic xION, you will need to redeem the xION v1 to yourself and remint xION v2. 
 Note: To find your xION version, click the privacy tab, then the xION Control button then expand the arrows next to the desired denomination.
 
 
