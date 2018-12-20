@@ -8,7 +8,10 @@ Please report bugs using the issue tracker at github: <https://github.com/ioncoi
 Mandatory Update
 ==============
 
-ION Core v3.1.0 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will have a grace period of one week to update their clients before enforcement of this update is enabled. The new Spork Key implementation is scheduled for Thursday, GMT: Monday, 31. December 2018 00:00:01. The old Spork key Wednesday, GMT: Sunday, 6. January 2019 00:00:01. Users must upgrade prior to this time.
+ION Core v3.1.0 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will have a grace period of one week to update their clients before enforcement of this update is enabled. 
+
+The new Spork Key implementation is scheduled for Thursday, GMT: Monday, 31. December 2018 00:00:01. 
+The old Spork key will be rejected Wednesday, GMT: Sunday, 6. January 2019 00:00:01. Users must upgrade prior to this time.
 
 Users updating from a previous version after Sunday, 6. January 2019 00:00:01 will require a full resync of their local blockchain from either the P2P network or by way of bootstrap.
 
