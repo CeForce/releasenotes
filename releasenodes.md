@@ -68,6 +68,15 @@ Transifex Translations
 
 Updated translations, you can follow the status [on Transifex](https://www.transifex.com/cevap/ioncoin/)
 
+# Initiated transition to bech32 address encoding
+
+# Fix checklocktimeverify unit tests 
+
+# New issue templates https://github.com/ioncoincore/ion/issues/new/choose
+
+# IIP implementation - block reward schedule https://github.com/ionomy/iips/blob/master/IIP_0003.md
+
+
 xION Updates
 --------------
 
@@ -92,7 +101,6 @@ xION minting now only requires 1 additional mint (down from 2) to mature. xION m
 ### xION Search
 
 Users will now have the ability to search the blockchain for a specific serial # to see if a xION denomination has been spent or not.
-
 
 
 ION/xION Staking and Masternode Rewards
@@ -192,6 +200,28 @@ Backing up 4 times will result as shown below
             wallet.dat-2018-04-22-00-20-04
             wallet.dat-2018-04-23-20-04-00
             
+### ION QT
+
+### New certificates > 
+
+### Gitian 
+
+Signature location (For verification) https://github.com/gitianuser/gitian.sigs-ion
+Build, release and translation process - started w/pivx core imported bitcoin core components. 
+switch from trusty to ubuntu bionic for the build system 
+
+### Snap Builds
+
+### Translations
+Transfinex encourage people to use https://www.transifex.com/ioncoincore/ioncore/
+
+### New Repositore
+ioncoincore - main official repository for community coin development will be updated more often
+ionomy - corporate releases (stable)
+
+
+
+
 
 
 ION Daemon & Client (RPC Changes)
@@ -228,7 +258,26 @@ Search the zerocoin database for a zerocoinspend transaction that contains the g
 
 `relaymasternodebroadcast`
 
-A new set of rpc commands masternodebroadcast to create masternode broadcast messages offline and relay them from online node later (messages expire in ~1 hour). 
+A new set of rpc commands masternodebroadcast to create masternode broadcast messages offline and relay them from online node later (messages expire in ~1 hour).
+
+### New RPC command
+`getextendedbalance`
+
+extened overview of current balance
+
+### New RPC command
+`listtransactionrecords`
+
+varation of listtransaction prints transaction overview similar to qt output
+
+### New RPC command
+`listrecordssinceblock`
+
+### New RPC command
+`fundtransaction`
+A tool for manually creating raw transactions
+
+### 
 
 
 Network Layer 2 Changes (Proposals / Budgets / SwiftX)
@@ -320,7 +369,7 @@ ION 's zerocoin implementation used the same code from the ZCoin project to impo
 *3.1.0* Change log
 --------------
 
-Detailed release notes follow. This overview includes changes that affect behavior, not code moves, refactors and string updates. For convenience in locating the code changes and accompanying discussion, both the pull request and git merge commit are mentioned.
+Detailed release notes follow. This overview includes changes and commits to the PIVX core, and then the underlying commits that were created after.
 
 ### Core Features
  - #582 `cb1632520` [Core] xION v2: xPoS dxION exION external backup and budget fixes (too many to list)
@@ -399,8 +448,7 @@ Detailed release notes follow. This overview includes changes that affect behavi
  - #488 `d09cf916a` [Wallet] Fixes an autocombinerewards bug with above max size TXs (warrows)
  - #448 `222ef6e6b` [Wallet] Return change to sender when minting xION. (presstab)
  - #445 `fc570fc1e` [Wallet] Only require 1 mint to be added before spending xION. (presstab)
- 
-### Miscellaneous
+
 ### Miscellaneous
  - #587 `69498104f` [Bug] Fix Windows icon files (Fuzzbawls)
  - #586 `fc211bfdf` [Bug] Fix CMasternodeConfig::read (Fuzzbawls)
@@ -436,5 +484,15 @@ Thanks to everyone who directly contributed to this release:
 - lex-dev3
 - PeterL73
 - Anthony Posselli
+- Tor
+- Mica
+- CKTI
+- Fornax
+- Ceforce
+- Psionic
+- Lortor
+- Jonas Schnelli 
+- (ADD People from BU)
+
 
 As well as everyone that helped translating on [Transifex](https://www.transifex.com/cevap/ioncoin/), the QA team during Testing and the Node hosts supporting our Testnet.
