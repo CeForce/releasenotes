@@ -66,15 +66,28 @@ CSS, artworks and their sources have been updated/renewed
 Transifex Translations
 -------------
 
+
 Updated translations, you can follow the status [on Transifex](https://www.transifex.com/cevap/ioncoin/)
+-------------
 
-# Initiated transition to bech32 address encoding
+Initiated transition to bech32 address encoding  
+-------------
 
-# Fix checklocktimeverify unit tests 
 
-# New issue templates https://github.com/ioncoincore/ion/issues/new/choose
+Fix checklocktimeverify unit tests   
+-------------
 
-# IIP implementation - block reward schedule https://github.com/ionomy/iips/blob/master/IIP_0003.md
+
+New issue templates  
+----
+
+Templates for various github issues are now available.
+https://github.com/ioncoincore/ion/issues/new/choose
+
+IIP  003 implementation  
+--------
+
+Updated block reward schedule has been implemented https://github.com/ionomy/iips/blob/master/IIP_0003.md
 
 
 xION Updates
