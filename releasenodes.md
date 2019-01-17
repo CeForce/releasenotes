@@ -43,6 +43,16 @@ frequently tested on them.
 Notable Changes
 ==============
 
+IIP  0003 implementation  
+--------
+The updated block reward schedule has been implemented as per IIP 0003
+https://github.com/ionomy/iips/blob/master/IIP_0003.md
+
+- **Year 3** - Block reward - 11.5   
+- **Year 4-9** - Block reward - 5.75      
+- **Year 10** - Block reward - 1.90  
+- **Year 11-100** - Block reward - 0.2  
+
 Old ion implementation refactored
 --------------
 
@@ -63,12 +73,10 @@ Updated artworks
 
 CSS, artworks and their sources have been updated/renewed
 
-Transifex Translations
--------------
-
 
 Updated translations, you can follow the status [on Transifex](https://www.transifex.com/cevap/ioncoin/)
 -------------
+Transifex is a web-based translation platform that assists with translation of open source technical projects with frequently updated content like software and documentation. Users can now contribute to localization of ion through Transifex at: https://www.transifex.com/cevap/ioncoin/
 
 Initiated transition to bech32 address encoding  
 -------------
@@ -81,13 +89,8 @@ Fix checklocktimeverify unit tests
 New issue templates  
 ----
 
-Templates for various github issues are now available.
+To assist with better support, templates for various github issues are now available
 https://github.com/ioncoincore/ion/issues/new/choose
-
-IIP  003 implementation  
---------
-
-Updated block reward schedule has been implemented https://github.com/ionomy/iips/blob/master/IIP_0003.md
 
 
 xION Updates
@@ -124,11 +127,22 @@ ION/xION Staking and Masternode Rewards
 To encourage the use of xION and increase the ION zerocoin anonymity set, the ION payment schedule has been changed to the following:
 
 If a user staking xION wins the reward for their block, the following xION reward will be: 
-- 3 xION (3 x 1 denominations) rewarded to the staker, 2 ION rewarded to the masternode owner and 1 ION available for the budget. This is a total block reward of 6 ION, up from 5.
+- 5 xION (5 x 1 denominations) rewarded to the staker and 6.5 ION rewarded to the masternode owner for a total reward of 11.5
 
 If a user staking ION wins the reward, the following amounts will be rewarded: 
-- 2 ION to the ION staker, 3 ION to the Masternode owner and 1 ION available for the budget. This is a total block reward of 6 ION, up from 5.
+- 5.75 ION to the ION staker and 5.75 ION to the Masternode owner for a total of 11.5
 
+xion staking and masternode reward schedule
+-------
+- **Year 3** - Block reward - 11.5 (5 xion to Staker / 6.5 ion to Masternode)  
+- **Year 4-9** - Block reward - 5.75 (2 xion to Staker/ 3.75 ion to Masternode)    
+- **Year 10** - Block reward - 1.90 (.9 xion to Staker / 1 ion to Masternode)     
+
+ion staking and masternode reward schedule  
+------
+- **Year 3** - Block reward - 11.5 (5.75 to Staker / 6.5 to Masternode)    
+- **Year 4-9** - Block reward - 5.75 (2.875 Staker/2.875 to Masternode)  
+- **Year 10** - Block reward - 1.90 (.95 to Staker / .95 to Masternode)  
 
 ### Return change to sender when minting xION
 
