@@ -140,7 +140,7 @@ xion staking and masternode reward schedule
 
 ion staking and masternode reward schedule  
 ------
-- **Year 3** - Block reward - 11.5 (5.75 to Staker / 6.5 to Masternode)    
+- **Year 3** - Block reward - 11.5 (5.75 to Staker / 5.75 to Masternode)    
 - **Year 4-9** - Block reward - 5.75 (2.875 Staker/2.875 to Masternode)  
 - **Year 10** - Block reward - 1.90 (.95 to Staker / .95 to Masternode)  
 
