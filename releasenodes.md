@@ -756,31 +756,28 @@ Detailed change notes follow. This overview includes changes and commits, and th
 ## Credits
 
 Thanks to everyone who directly contributed to this release:
-- gpdionisio
-- warrows
+- Adam Langley
+- Benjamin Allred
+- blondfrogs
+- cevap
+- Cevap Master
+- ckti
+- Cory Fields
+- Fornax
+- FornaxA
 - Fuzzbawls
+- gitianuser
+- ioncoincore
+- Ion Coin Developers
+- MarcoFalke
+- Mitchell Cash
+- mrmetech
 - Mrs-X
 - presstab
-- blondfrogs
-- Patrick Strateman
-- Tim Uy
-- Sieres
-- Nitya Sattva
-- turtleflax
-- rejectedpromise
-- Dexaran
-- lex-dev3
-- PeterL73
-- Anthony Posselli
-- Tor
-- Mica
-- CKTI
-- Fornax
-- Ceforce
-- Psionic
-- Lortor
-- Jonas Schnelli 
-- (ADD People from BU)
-
+- random-zebra
+- sicXnull
+- warrows
+- Wladimir J. van der Laan
+- wqking
 
 As well as everyone that helped translating on [Transifex](https://www.transifex.com/cevap/ioncoin/), the QA team during Testing and the Node hosts supporting our Testnet.
