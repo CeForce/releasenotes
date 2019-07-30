@@ -17,6 +17,8 @@ Note on version 1 zPIV: Version 1 zPIV was only available to me minted between v
 Version 1 zPIV will be made spendable at a later date due to the extra work required in order to make these version 1 mints spendable.
 
 GUI Changes
+==============
+
 Options Dialog Cleanup
 The options/settings UI dialog has been cleaned up to no longer show settings that are wallet related when running in "disable wallet" (-disablewallet) mode.
 
@@ -24,23 +26,26 @@ Privacy Tab
 Notice text has been added to the privacy tab indicating that zPIV minting is disabled, as well as the removal of UI elements that supported such functionality. Notice text has also been added indicating that zPIV spends are currently NOT private.
 
 RPC Changes
-Removal of Deprecated Commands
+==============
+
+### Removal of Deprecated Commands
 The masternode and mnbudget RPC commands, which were marked as deprecated in PIVX Core v2.3.1 (September 19, 2017), have now been completely removed from PIVX Core.
 
 Several new commands were added in v2.3.1 to replace the two aforementioned commands, reference the v2.3.1 Release Notes for further details.
 
-New getblockindexstats Command
+### New getblockindexstats Command
 A new RPC command (getblockindexstats) has been introduced which serves the purpose of obtaining statistical information on a range of blocks. The information returned is as follows:
 
-transaction count (not including coinbase/coinstake txes)
-transaction count (including coinbase/coinstake txes)
-zPIV per-denom mint count
-zPIV per-denom spend count
-total transaction bytes
-total fees in block range
-average fee per kB
-Command Reference:
+* transaction count (not including coinbase/coinstake txes)
+* transaction count (including coinbase/coinstake txes)
+* zPIV per-denom mint count
+* zPIV per-denom spend count
+* total transaction bytes
+* total fees in block range
+* average fee per kB
 
+Command Reference:
+```
 getblockindexstats height range ( fFeeOnly )
 nReturns aggregated BlockIndex data for blocks
 height, height+1, height+2, ..., height+range-1]
@@ -49,8 +54,9 @@ nArguments:
 1. height             (numeric, required) block height where the search starts.
 2. range              (numeric, required) number of blocks to include.
 3. fFeeOnly           (boolean, optional, default=False) return only fee info.
+```
 Result:
-
+```
 {
   first_block: x,              (integer) First counted block
   last_block: x,               (integer) Last counted block
@@ -76,7 +82,10 @@ Result:
   ttlfee_all: xxxxx,           (numeric) Sum of the fee amount of all txes (zPIV mints included) over block range
   feeperkb: xxxxx,             (numeric) Average fee per kb (excluding zc txes)
 }
+```
 Build System Changes
+==============
+
 New Architectures for Depends
 The depends system has new added support for the s390x and ppc64el architectures. This is done in order to support the future integration with Snapcraft, as well as to support any developers who may use systems based on such architectures.
 
@@ -88,6 +97,8 @@ This is intended to be used in conjunction with IDEs like CLion (which relies he
 Note that it is still required to have relevant dependencies installed on the system for this to function properly.
 
 3.3.0 Change log
+==============
+
 Detailed release notes follow. This overview includes changes that affect behavior, not code moves, refactors and string updates. For convenience in locating the code changes and accompanying discussion, both the pull request and git merge commit are mentioned.
 
 ### Core
